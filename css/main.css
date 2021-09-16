@@ -25,7 +25,7 @@ body {
 
 header {
     height: 800px;
-    background: url('../img/full-background.png');
+    background: linear-gradient(90deg, rgba(255,255,255,.7) 0%, rgba(255,255,255,0.7) 53%, rgba(255,255,255,.7) 100%), url('../img/background-header.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -33,8 +33,8 @@ header {
 header h1 {
     font-family: 'Lora', serif;
     font-size: 30px;
-    color: #bbc085;
-    padding: 65px 0 65px 25px;
+    color: #17183B;
+    padding: 10vh 0 65px 25px;
 }
 nav {
     float: right;
@@ -46,8 +46,8 @@ nav ul li{
 nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 18px;
-    color: #828282;
+    font-size: 22px;
+    color: #4d5061;
     padding-left: 80px;
 }
 header h2 {
@@ -56,11 +56,11 @@ header h2 {
     font-family: 'Lora', serif;
     font-size: 72px;
     line-height: 80px;
-    color: #9b9b9b;
+    color: #4d5061;
     padding: 20px 0 20px 25px;
 }
 header h2 span {
-    color: #2b2b2b;
+    color: #4d5061b;
 }
 
 /****** ABOUT ******/
@@ -85,7 +85,7 @@ header h2 span {
 /****** WORK ******/
 
 #work {
-    background-color: #f9ceb7;
+    background-color: #f7bce5fd;
     text-align: center;
 }
 
